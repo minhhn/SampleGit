@@ -9,7 +9,8 @@
 #import "MFDViewController.h"
 
 @interface MFDViewController ()
-
+@property (weak, nonatomic) IBOutlet UILabel *countLabel;
+@property (nonatomic, assign) NSInteger numberOfTaps;
 @end
 
 @implementation MFDViewController
@@ -45,5 +46,14 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (IBAction)onButtonTapped:(UIButton *)sender
+{
+    self.numberOfTaps += 1;
+    
+    dispatch_async(dispatch_get_main_queue(), ^{
+        self.countLabel.text = [NSString stringWithFormat:@"%ld", self.numberOfTaps];
+    });
+}
 
 @end
