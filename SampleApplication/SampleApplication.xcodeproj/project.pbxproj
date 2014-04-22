@@ -19,6 +19,8 @@
 		BA3793431906664900DB35D4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BA37932B1906664900DB35D4 /* UIKit.framework */; };
 		BA37934B1906664900DB35D4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BA3793491906664900DB35D4 /* InfoPlist.strings */; };
 		BA37934D1906664900DB35D4 /* SampleApplicationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BA37934C1906664900DB35D4 /* SampleApplicationTests.m */; };
+		BA3793571906686800DB35D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA3793561906686800DB35D4 /* Main.storyboard */; };
+		BA37935A1906693100DB35D4 /* MFDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BA3793591906693100DB35D4 /* MFDViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +50,9 @@
 		BA3793481906664900DB35D4 /* SampleApplicationTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SampleApplicationTests-Info.plist"; sourceTree = "<group>"; };
 		BA37934A1906664900DB35D4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		BA37934C1906664900DB35D4 /* SampleApplicationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleApplicationTests.m; sourceTree = "<group>"; };
+		BA3793561906686800DB35D4 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		BA3793581906693100DB35D4 /* MFDViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MFDViewController.h; sourceTree = "<group>"; };
+		BA3793591906693100DB35D4 /* MFDViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MFDViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -111,6 +116,9 @@
 				BA3793371906664900DB35D4 /* MFDAppDelegate.m */,
 				BA3793391906664900DB35D4 /* Images.xcassets */,
 				BA37932E1906664900DB35D4 /* Supporting Files */,
+				BA3793561906686800DB35D4 /* Main.storyboard */,
+				BA3793581906693100DB35D4 /* MFDViewController.h */,
+				BA3793591906693100DB35D4 /* MFDViewController.m */,
 			);
 			path = SampleApplication;
 			sourceTree = "<group>";
@@ -220,6 +228,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA3793571906686800DB35D4 /* Main.storyboard in Resources */,
 				BA3793321906664900DB35D4 /* InfoPlist.strings in Resources */,
 				BA37933A1906664900DB35D4 /* Images.xcassets in Resources */,
 			);
@@ -240,6 +249,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA37935A1906693100DB35D4 /* MFDViewController.m in Sources */,
 				BA3793381906664900DB35D4 /* MFDAppDelegate.m in Sources */,
 				BA3793341906664900DB35D4 /* main.m in Sources */,
 			);
