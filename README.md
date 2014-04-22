@@ -1,4 +1,4 @@
 SampleGit
 =========
 
-Nothing
+This is master branch
